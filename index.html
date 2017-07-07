@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Multiple Vue</title>
+  <link rel="stylesheet" href="/css/master.css">
+  <script src="https://unpkg.com/vue" charset="utf-8"></script>
+</head>
+
+<body>
+
+  <h1>Multiple Vue</h1>
+  <div id="vue-app-one">
+    <h2>{{title}}</h2>
+    <p>{{greet}}</p>
+  </div>
+  <div id="vue-app-two">
+    <h2>{{title}}</h2>
+    <p>{{greet}}</p>
+    <button @click="changeTitle()" type="button" name="button">Change App One Title</button>
+  </div>
+
+  <script src="/app.js" charset="utf-8"></script>
+</body>
+
+</html>
